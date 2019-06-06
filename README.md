@@ -24,9 +24,14 @@ There should be these 3 xml files:<br/>
 Open command line the way that is explained here: https://www.youtube.com/watch?v=bgSSJQolR0E.<br/>
 
 #### Step 3.
-Then type *mvn clean test -Dsurefire.suiteXmlFiles=testngSuiteCityById.xml* or *mvn clean test -Dsurefire.suiteXmlFiles=testngSuiteCityByName.xml* or *mvn clean test -Dsurefire.suiteXmlFiles=testngSuiteCityByNameAndById.xml* and test should run.
+Then type: <br/>
+*mvn clean test -Dsurefire.suiteXmlFiles=testngSuiteCityById.xml* or <br/>
+*mvn clean test -Dsurefire.suiteXmlFiles=testngSuiteCityByName.xml* or <br/>
+*mvn clean test -Dsurefire.suiteXmlFiles=testngSuiteCityByNameAndById.xml* and test should run.
 
 ### Results.
+
+After test suites is run - reports is being generated in following locations:
 
 Cucumber reports in html format: *(path to workspace directory)/API_Test_Automation_Framework/target/cucumber-report*.<br/>
 Shurefire reports in html format: *(path to workspace directory)/API_Test_Automation_Framework/target/surefire-reports/emailable-report.html*.<br/>
