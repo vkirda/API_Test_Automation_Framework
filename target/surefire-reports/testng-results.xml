@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-06T18:46:00Z" name="City by name and id suite" finished-at="2019-06-06T18:46:04Z" duration-ms="3512">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suiteRunners.RunWeatherByIdTestSuite@24313fcc]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suiteRunners.RunWeatherByNameTestSuite@5e5d171f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-06-06T18:46:00Z" name="Test" finished-at="2019-06-06T18:46:04Z" duration-ms="3512">
+      <class name="suiteRunners.RunWeatherByNameTestSuite">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:suiteRunners.RunWeatherByNameTestSuite@5e5d171f]" started-at="2019-06-06T18:46:00Z" name="setUpClass" finished-at="2019-06-06T18:46:01Z" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suiteRunners.RunWeatherByNameTestSuite@5e5d171f]" started-at="2019-06-06T18:46:01Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-06T18:46:03Z" duration-ms="2500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Query to get some of weather API info by city name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Get weather info by city name"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suiteRunners.RunWeatherByNameTestSuite@5e5d171f]" started-at="2019-06-06T18:46:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-06T18:46:03Z" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Query to check what happens if connecting without API key"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Get weather info by city name"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suiteRunners.RunWeatherByNameTestSuite@5e5d171f]" started-at="2019-06-06T18:46:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-06T18:46:03Z" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Query to check what happens if city is non existing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Get weather info by city name"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:suiteRunners.RunWeatherByNameTestSuite@5e5d171f]" started-at="2019-06-06T18:46:03Z" name="tearDownClass" finished-at="2019-06-06T18:46:03Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suiteRunners.RunWeatherByNameTestSuite -->
+      <class name="suiteRunners.RunWeatherByIdTestSuite">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:suiteRunners.RunWeatherByIdTestSuite@24313fcc]" started-at="2019-06-06T18:46:03Z" name="setUpClass" finished-at="2019-06-06T18:46:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:suiteRunners.RunWeatherByIdTestSuite@24313fcc]" started-at="2019-06-06T18:46:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-06T18:46:04Z" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Query to get some of weather API info by city id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Get weather info by city id"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:suiteRunners.RunWeatherByIdTestSuite@24313fcc]" started-at="2019-06-06T18:46:04Z" name="tearDownClass" finished-at="2019-06-06T18:46:04Z" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- suiteRunners.RunWeatherByIdTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- City by name and id suite -->
+</testng-results>
