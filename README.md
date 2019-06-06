@@ -1,5 +1,9 @@
-# API_Test_Automation_Framework
+# API Test Automation Framework
 API test automation framework using JAVA, Cucumber, REST assured, Testng, Maven
+
+## Some Explanation
+
+This is API test automation framework that uses BDD approch. Both Cucumber and REST-Assured uses Given-When-Then structure and they both work together very well. Cucumber is needed to write test cases in such language that non technical person could understand. REST-assured helps to perform API testing easily by writing as few lines of code as posible.
 
 ### Prerequisites.
 
