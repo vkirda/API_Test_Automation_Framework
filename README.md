@@ -9,13 +9,32 @@ This is API test automation framework that uses BDD approch. Both Cucumber and R
 ![APITestProjectDirectoryFiles](https://user-images.githubusercontent.com/34350328/59084287-42322300-8903-11e9-8f0c-03ab1dd3eb1a.jpg)
 
 As you see from the picture - there is 4 thing that you need to be aware of.
-1. Xml files next to *pom.xml*
-2. Suite runners under *suiteRunners* package
-3. Feature files under *src/test/resources/features* directory
-4. Step definitions file under *stepDefinitions* package
+1. Suite runners under *suiteRunners* package
+2. Features files under *src/test/resources/features* directory
+3. Step definitions file under *stepDefinitions* package
+4. TestNG xml files next to *pom.xml*
 
+##### 1. Suite runners
 
+Suite runner is JAVA class that binds features files and step definitions class. Features files is recognised by pointing to features directory like this: *features = { "src/test/resources" }* . Suite runner recognises which scenario to run by using  tags:	*tags = { "@id" }*. Test scenario steps from features file is being implemented in step definitions file and it is recognized by suite runner by pointing to package like this: *glue = "stepDefinitions"*. 
 
+In this framework there is 2 runner clases. One runs tests taged by *name* (suite has 3 tests), another by *id* (1 test).
+
+##### 2. Features files
+
+Features files is test scenarios in plain english, it's easy to understand for non technical person.
+
+It's easy to understand what is being tested in this framework. Here I did 2 feature files. One is testing API query by *name*, another by *id*.
+
+##### 3. Step definitions
+
+Step definitions is the place where understandable code from features file is being translated into JAVA code.
+
+##### 4. TestNG xml files
+
+It is a test suite files that can be run from command line using maven or from IDE like Eclipse, or even better - from Jenkins. 
+
+Here I made 3 testng suite files. One runs suite runner that uses test scenarios tagged by name, second by id, third runs them both.
 
 ### Prerequisites.
 
