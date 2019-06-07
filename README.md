@@ -69,4 +69,7 @@ Then type: <br/>
 After test suites is run - reports is being generated in following locations:
 
 Cucumber reports in html format: *(path to workspace directory)/API_Test_Automation_Framework/target/cucumber-report*.<br/>
+
+![CityByName](https://user-images.githubusercontent.com/34350328/59088233-93e0aa80-890f-11e9-9b36-67ef13d3a1a9.jpg)
+
 Shurefire reports in html format: *(path to workspace directory)/API_Test_Automation_Framework/target/surefire-reports/emailable-report.html*.<br/>
