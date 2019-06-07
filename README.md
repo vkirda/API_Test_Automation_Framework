@@ -8,7 +8,7 @@ This is API test automation framework that uses BDD approch. Both Cucumber and R
 
 ![APITestProjectDirectoryFiles](https://user-images.githubusercontent.com/34350328/59084287-42322300-8903-11e9-8f0c-03ab1dd3eb1a.jpg)
 
-As you see from the picture - there is 4 thing that you need to be aware of.
+As you see from the picture - there is 4 things that you need to be aware of.
 1. Suite runners under *suiteRunners* package
 2. Features files under *src/test/resources/features* directory
 3. Step definitions file under *stepDefinitions* package
