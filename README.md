@@ -16,7 +16,7 @@ As you see from the picture - there is 4 things that you need to be aware of.
 
 ##### 1. Suite runners
 
-Suite runner is JAVA class that binds features files and step definitions class. Features files is recognised by pointing to features directory like this: *features = { "src/test/resources" }* . Suite runner recognises which scenario to run by using  tags:	*tags = { "@id" }*. Test scenario steps from features file is being implemented in step definitions file and it is recognized by suite runner by pointing to package like this: *glue = "stepDefinitions"*. 
+Suite runner is JAVA class that binds *features* files and *step definitions* class. Features files is recognised by pointing to features directory like this: *features = { "src/test/resources" }* . Suite runner recognises which scenario to run by using  tags:	*tags = { "@id" }*. Test scenario steps from features file is being implemented in step definitions file and it is recognized by suite runner by pointing to package like this: *glue = "stepDefinitions"*. 
 
 In this framework there is 2 runner clases. One runs tests taged by *name* (suite has 3 tests), another by *id* (1 test).
 
