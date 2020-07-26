@@ -3,7 +3,7 @@ API test automation framework using JAVA, Cucumber, REST assured, Testng, Maven
 
 ## Some Explanation
 
-This is API test automation framework that uses BDD approch. Both Cucumber and REST-Assured uses Given-When-Then structure and they both work together very well. Cucumber is needed to write test cases in such language that non technical person could understand. REST-assured helps to perform API testing easily by writing as few lines of code as posible.
+This is API test automation framework that uses BDD approch. Both, Cucumber and REST-Assured, uses Given-When-Then structure, and they both work together very well. Cucumber is needed to write test cases in such language, that non technical person could understand. REST-assured helps to perform API testing easily by writing as few lines of code as posible.
 
 
 ![APITestProjectDirectoryFiles](https://user-images.githubusercontent.com/34350328/59084287-42322300-8903-11e9-8f0c-03ab1dd3eb1a.jpg)
@@ -16,7 +16,10 @@ As you see from the picture - there is 4 things that you need to be aware of.
 
 ##### 1. Suite runners
 
-Suite runner is JAVA class that binds *features* files and *step definitions* class. Features files is recognised by pointing to features directory like this: *features = { "src/test/resources" }* . Suite runner recognises which scenario to run by using  tags:	*tags = { "@id" }*. Test scenario steps from features file is being implemented in step definitions file and it is recognized by suite runner by pointing to package like this: *glue = "stepDefinitions"*. 
+Suite runner is JAVA class that binds *features* files and *step definitions* class. <br/><br/>
+Features files is recognised by pointing to features directory like this: *features = { "src/test/resources" }*. <br/> 
+Suite runner recognises which scenario to run by using  tags:	*tags = { "@id" }*. <br/> 
+Tests scenario steps from features file are being implemented in step definitions file, and it is recognized by suite runner by pointing to package like this: *glue = "stepDefinitions"*. 
 
 In this framework there is 2 runner clases. One runs tests taged by *name* (suite has 3 tests), another by *id* (1 test).
 
@@ -32,9 +35,9 @@ Step definitions is the place where understandable code from features file is be
 
 ##### 4. TestNG xml files
 
-It is a test suite files that can be run from command line using maven or from IDE like Eclipse, or even better - from Jenkins. 
+It is a test suite files that can be run from command line using Maven or from IDE like Eclipse or Intllij, or even better - from Jenkins. 
 
-Here I made 3 testng suite files. One runs suite runner that uses test scenarios tagged by name, second by id, third runs them both.
+Here I made 3 TestNg suite files. One runs suite runner that uses test scenarios tagged by name, second by id, third runs them both.
 
 ### Prerequisites.
 
